@@ -172,18 +172,6 @@ local syntax = {
     DiagnosticWarn = { fg = koromiko },
     DiagnosticInfo = { fg = perano },
     DiagnosticHint = { fg = tea_green },
-    --DiagnosticOk = {},
-    --DiagnosticVirtualTextError
-    --DiagnosticVirtualTextWarn
-    --DiagnosticVirtualTextInfo
-    --DiagnosticVirtualTextHint
-    --DiagnosticVirtualTextOk
-    --DiagnosticUnderlineError
-    --DiagnosticUnderlineWarn
-    --DiagnosticUnderlineInfo
-    --DiagnosticUnderlineHint
-    --DiagnosticUnderlineOk
-    --DiagnosticFloatingError
 
     -- Tree-sitter
     ["@namespace"] = { fg = wewak },
@@ -198,12 +186,6 @@ local syntax = {
     ["@markup.strike"] = { strikethrough = true },
     ["@markup"] = { bold = true },
     ["@markup.heading"] = { fg = koromiko, underline = false },
-    --["@markup.heading.1.markdown"] = { fg = koromiko },
-    --["@markup.heading.2.markdown"] = { fg = brandy },
-    --["@markup.heading.3.markdown"] = { fg = goldenrod },
-    --["@markup.heading.4.markdown"] = { fg = goldenrod },
-    --["@markup.heading.5.markdown"] = { fg = goldenrod },
-    --["@markup.heading.6.markdown"] = { fg = goldenrod },
     ["@text.uri"] = { link = "Type" },
     ["@markup.link"] = { link = "Operator" },
     ["@markup.link.label"] = { link = "Statement" },
