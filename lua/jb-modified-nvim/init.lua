@@ -188,6 +188,7 @@ local syntax = {
     -- Tree-sitter
     ["@namespace"] = { fg = wewak },
     ["@variable"] = { link = "Normal" },
+    ["@property"] = { link = "Normal" },
     ["@tag.delimiter"] = { fg = perano },
     ["@text.emphasis"] = { italic = true },
     ["@markup.italic"] = { italic = true },
@@ -207,7 +208,16 @@ local syntax = {
     ["@markup.link"] = { link = "Operator" },
     ["@markup.link.label"] = { link = "Statement" },
     ["@markup.link.url"] = { link = "String" },
+
+    -- LSP
+    ["@lsp.type.variable"] = { link = "Normal" },
+    ["@lsp.type.property"] = { link = "Normal" },
+    ["@lsp.type.parameter"] = { link = "Normal" },
+
+    -- Telescope
+    -- Todo:
 }
+
 vim.api.nvim_command("hi clear")
 vim.o.termguicolors = true
 
