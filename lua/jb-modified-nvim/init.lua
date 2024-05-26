@@ -202,6 +202,8 @@ local syntax = {
 
 vim.api.nvim_command("hi clear")
 vim.o.termguicolors = true
+vim.g.color_name = "jb-mod-nvim"
+vim.g.background = "dark"
 
 for group, conf in pairs(syntax) do
     highlight(group, conf)
