@@ -98,7 +98,7 @@ local syntax = {
 
     LineNr = { fg = zambezi, bg = background_color },
     CursorLineNr = { fg = silver2 },
-    Comment = { fg = grey, italic = true },
+    Comment = { fg = grey },
     Todo = { fg = silver, bold = true },
 
     StatusLine = { fg = black, bg = alto, italic = true },
