@@ -75,34 +75,33 @@ local temptress = "#40000A"
 
 return {
     normal = {
-        a = { fg = gallery, bg = azure },
+        a = { fg = cod_grey, bg = danube, gui = "bold" },
         b = { fg = gallery, bg = gravel },
         c = { fg = shuttle_grey, bg = cod_grey3 },
     },
 
     insert = {
-        a = { fg = white_rock, bg = dell },
+        a = { fg = cod_grey, bg = highland, gui = "bold" },
     },
 
     command = {
-        a = { fg = gallery, bg = danube },
+        a = { fg = cod_grey, bg = morning_glory, gui = "bold" },
     },
 
     visual = {
-        a = { fg = gallery2, bg = valencia },
+        a = { fg = cod_grey, bg = valencia, gui = "bold" },
     },
 
     replace = {
-        a = { fg = white_rock, bg = koromiko },
+        a = { fg = valencia, bg = cod_grey, gui = "bold" },
     },
 
     terminal = {
-        a = { fg = gallery, bg = raw_sienna },
-        b = { fg = raw_sienna, bg = mine_shaft },
+        a = { fg = cod_grey, bg = perano, gui = "bold" },
     },
 
     inactive = {
-        a = { fg = ship_cove, bg = dark_blue },
+        a = { fg = cod_grey, bg = ship_cove, gui = "bold" },
         b = { fg = silver, bg = cod_grey3 },
         c = { fg = silver, bg = cod_grey3 },
     },
