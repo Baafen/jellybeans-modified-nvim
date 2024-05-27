@@ -193,7 +193,13 @@ local syntax = {
     ["@lsp.type.parameter"] = { link = "Normal" },
 
     -- Telescope
-    -- Todo:
+    TelescopeNormal = { bg = background_color },
+    TelescopeBorder = { fg = gravel },
+    TelescopeSelection = { bg = tundora },
+    TelescopeMatching = { link = "Search" },
+    TelescopePromptPrefix = { link = "Normal" },
+    TelescopeTitle = { fg = ship_cove },
+
 }
 
 local highlight = function(group, conf)
