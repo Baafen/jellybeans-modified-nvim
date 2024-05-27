@@ -172,7 +172,7 @@ local syntax = {
     -- Tree-sitter
     ["@namespace"] = { fg = wewak },
     ["@variable"] = { link = "Normal" },
-    ["@property"] = { link = "Normal" },
+    --["@property"] = { link = "Normal" },
     ["@tag.delimiter"] = { fg = perano },
     ["@text.emphasis"] = { italic = true },
     ["@markup.italic"] = { italic = true },
@@ -189,7 +189,7 @@ local syntax = {
 
     -- LSP
     ["@lsp.type.variable"] = { link = "Normal" },
-    ["@lsp.type.property"] = { link = "Normal" },
+    --["@lsp.type.property"] = { link = "Normal" },
     ["@lsp.type.parameter"] = { link = "Normal" },
 
     -- Telescope
