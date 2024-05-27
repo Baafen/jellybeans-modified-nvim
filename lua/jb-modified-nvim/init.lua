@@ -1,7 +1,3 @@
-local highlight = function(group, conf)
-    return vim.api.nvim_set_hl(0, group, conf)
-end
-
 -- black, grey and white
 local black = "#000000"
 local white = "#ffffff"
@@ -200,10 +196,9 @@ local syntax = {
     -- Todo:
 }
 
-vim.api.nvim_command("hi clear")
-vim.o.termguicolors = true
-vim.g.color_name = "jb-mod-nvim"
-vim.g.background = "dark"
+local highlight = function(group, conf)
+    return vim.api.nvim_set_hl(0, group, conf)
+end
 
 for group, conf in pairs(syntax) do
     highlight(group, conf)
