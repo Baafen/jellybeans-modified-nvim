@@ -3,4 +3,4 @@ vim.o.termguicolors = true
 vim.g.color_name = "jb-mod-nvim"
 vim.g.background = "dark"
 
-require("jb-modified-nvim")
+require("jellybeans-modified-nvim")
