@@ -164,7 +164,7 @@ local syntax = {
     RainbowDelimiterViolet = { fg = ripe_plum },
 
     -- Diagnostics
-    DiagnosticError = { fg = old_brick },
+    DiagnosticError = { fg = valencia },
     DiagnosticWarn = { fg = koromiko },
     DiagnosticInfo = { fg = perano },
     DiagnosticHint = { fg = tea_green },
