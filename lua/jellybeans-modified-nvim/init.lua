@@ -186,6 +186,7 @@ local syntax = {
     ["@markup.link"] = { link = "Operator" },
     ["@markup.link.label"] = { link = "Statement" },
     ["@markup.link.url"] = { link = "String" },
+    ["@markup.raw.block.markdown"] = { bg = mine_shaft2 },
 
     -- LSP
     LspDiagnosticsDefaultHint  = { link = "DiagnosticHint" },
