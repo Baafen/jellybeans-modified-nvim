@@ -192,8 +192,9 @@ local syntax = {
     LspDiagnosticsDefaultHint  = { link = "DiagnosticHint" },
     LspDiagnosticsDefaultWarning  = { link = "DiagnosticWarn" },
     ["@lsp.type.variable"] = { link = "Normal" },
-    --["@lsp.type.property"] = { link = "Normal" },
     ["@lsp.type.parameter"] = { link = "Normal" },
+    ["@lsp.type.macro.rust"] = { link = "Function" },
+    ["@lsp.type.lifetime.rust"] = { fg = danube },
 
     -- Telescope
     TelescopeNormal = { bg = background_color },
