@@ -188,6 +188,8 @@ local syntax = {
     ["@markup.link.url"] = { link = "String" },
 
     -- LSP
+    LspDiagnosticsDefaultHint  = { link = "DiagnosticHint" },
+    LspDiagnosticsDefaultWarning  = { link = "DiagnosticWarn" },
     ["@lsp.type.variable"] = { link = "Normal" },
     --["@lsp.type.property"] = { link = "Normal" },
     ["@lsp.type.parameter"] = { link = "Normal" },
